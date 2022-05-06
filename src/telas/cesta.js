@@ -12,7 +12,7 @@ export default function Cesta() {
    <Image source={topo} style={styles.topo}  />
    <Text style={styles.titulo}>Detalhes da cesta</Text>
    <View style={styles.cesta}>
-   <Text>Cesta de Verduras</Text>
+   <Text style={styles.nome} >Cesta de Verduras</Text>
       <View style={styles.fazenda}>    
           <Image source={logo} style={styles.imagemFazenda}  />
           <Text style={styles.nomeFazenda}>Jenny Jack Farm</Text>
@@ -47,6 +47,10 @@ const styles = StyleSheet.create({
        paddingHorizontal: 16,
        paddingVertical: 8,
    },
+   nome:{
+       
+   }
+
    fazenda: {
        flexDirection: 'row',
        paddingVertical: 12,
