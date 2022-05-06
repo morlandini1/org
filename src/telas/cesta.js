@@ -48,8 +48,8 @@ const styles = StyleSheet.create({
        paddingVertical: 8,
    },
    nome:{
-       
-   }
+
+   },
 
    fazenda: {
        flexDirection: 'row',
